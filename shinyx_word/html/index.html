@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <?xml-stylesheet type="text/css" href="svg.css" ?>
+    <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v6.1.1/css/pro.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="" style="display: block;">
+
+<div class="minigame-container" style="display: none;">
+    <div class="title">
+        <span class="center">Poczekaj na symbole</span>
+        <div class="minigame-fill">
+            <div class="fill"></div>
+        </div>
+    </div>
+    <div id="slider-1">
+        <div id="icon-0" style="display: none;" class="icon"></div> 
+        <div id="icon-1" class="icon">
+            <svg width="87" height="95" viewBox="0 0 87 95" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M37.5 3.7735C41.2128 1.62991 45.7872 1.62991 49.5 3.7735L78.3683 20.4406C82.0811 22.5842 84.3683 26.5457 84.3683 30.8329V64.1671C84.3683 68.4543 82.0811 72.4158 78.3683 74.5594L49.5 91.2265C45.7872 93.3701 41.2128 93.3701 37.5 91.2265L8.63174 74.5594C4.91893 72.4158 2.63174 68.4543 2.63174 64.1671V30.8329C2.63174 26.5457 4.91893 22.5842 8.63174 20.4406L37.5 3.7735Z" fill="#211724" stroke="url(#paint0_linear_111_10)" stroke-width="4"/>
+                <text id="1" x="43.5" y="47.5" text-anchor="middle" fill="white" font-size="2vw" font-weight="bold" dy=".3em">G</text>
+                <defs>
+                <linearGradient id="paint0_linear_111_10" x1="43.5" y1="-2" x2="43.5" y2="97" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#45334E"/>
+                <stop offset="1" stop-color="#18121B"/>
+                </linearGradient>
+                </defs>
+            </svg>
+        </div>
+        <div id="icon-2" class="icon">
+            <svg width="87" height="95" viewBox="0 0 87 95" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M37.5 3.7735C41.2128 1.62991 45.7872 1.62991 49.5 3.7735L78.3683 20.4406C82.0811 22.5842 84.3683 26.5457 84.3683 30.8329V64.1671C84.3683 68.4543 82.0811 72.4158 78.3683 74.5594L49.5 91.2265C45.7872 93.3701 41.2128 93.3701 37.5 91.2265L8.63174 74.5594C4.91893 72.4158 2.63174 68.4543 2.63174 64.1671V30.8329C2.63174 26.5457 4.91893 22.5842 8.63174 20.4406L37.5 3.7735Z" fill="#211724" stroke="url(#paint0_linear_111_10)" stroke-width="4"/>
+                <text id="2" x="43.5" y="47.5" text-anchor="middle" fill="white" font-size="2vw" font-weight="bold" dy=".3em">G</text>
+                <defs>
+                <linearGradient id="paint0_linear_111_10" x1="43.5" y1="-2" x2="43.5" y2="97" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#45334E"/>
+                <stop offset="1" stop-color="#18121B"/>
+                </linearGradient>
+                </defs>
+            </svg>
+        </div>
+        <div id="icon-3" class="icon">
+            <svg width="87" height="95" viewBox="0 0 87 95" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M37.5 3.7735C41.2128 1.62991 45.7872 1.62991 49.5 3.7735L78.3683 20.4406C82.0811 22.5842 84.3683 26.5457 84.3683 30.8329V64.1671C84.3683 68.4543 82.0811 72.4158 78.3683 74.5594L49.5 91.2265C45.7872 93.3701 41.2128 93.3701 37.5 91.2265L8.63174 74.5594C4.91893 72.4158 2.63174 68.4543 2.63174 64.1671V30.8329C2.63174 26.5457 4.91893 22.5842 8.63174 20.4406L37.5 3.7735Z" fill="#211724" stroke="url(#paint0_linear_111_10)" stroke-width="4"/>
+                <text id="3" x="43.5" y="47.5" text-anchor="middle" fill="white" font-size="2vw" font-weight="bold" dy=".3em">G</text>
+                <defs>
+                <linearGradient id="paint0_linear_111_10" x1="43.5" y1="-2" x2="43.5" y2="97" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#45334E"/>
+                <stop offset="1" stop-color="#18121B"/>
+                </linearGradient>
+                </defs>
+            </svg>
+        </div>
+        <div id="icon-4" class="icon">
+            <svg width="87" height="95" viewBox="0 0 87 95" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M37.5 3.7735C41.2128 1.62991 45.7872 1.62991 49.5 3.7735L78.3683 20.4406C82.0811 22.5842 84.3683 26.5457 84.3683 30.8329V64.1671C84.3683 68.4543 82.0811 72.4158 78.3683 74.5594L49.5 91.2265C45.7872 93.3701 41.2128 93.3701 37.5 91.2265L8.63174 74.5594C4.91893 72.4158 2.63174 68.4543 2.63174 64.1671V30.8329C2.63174 26.5457 4.91893 22.5842 8.63174 20.4406L37.5 3.7735Z" fill="#211724" stroke="url(#paint0_linear_111_10)" stroke-width="4"/>
+                <text id="4" x="43.5" y="47.5" text-anchor="middle" fill="white" font-size="2vw" font-weight="bold" dy=".3em">G</text>
+                <defs>
+                <linearGradient id="paint0_linear_111_10" x1="43.5" y1="-2" x2="43.5" y2="97" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#45334E"/>
+                <stop offset="1" stop-color="#18121B"/>
+                </linearGradient>
+                </defs>
+            </svg>
+        </div>
+        <div id="icon-5" class="icon">
+            <svg width="87" height="95" viewBox="0 0 87 95" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M37.5 3.7735C41.2128 1.62991 45.7872 1.62991 49.5 3.7735L78.3683 20.4406C82.0811 22.5842 84.3683 26.5457 84.3683 30.8329V64.1671C84.3683 68.4543 82.0811 72.4158 78.3683 74.5594L49.5 91.2265C45.7872 93.3701 41.2128 93.3701 37.5 91.2265L8.63174 74.5594C4.91893 72.4158 2.63174 68.4543 2.63174 64.1671V30.8329C2.63174 26.5457 4.91893 22.5842 8.63174 20.4406L37.5 3.7735Z" fill="#211724" stroke="url(#paint0_linear_111_10)" stroke-width="4"/>
+                <text id="5" x="43.5" y="47.5" text-anchor="middle" fill="white" font-size="2vw" font-weight="bold" dy=".3em">G</text>
+                <defs>
+                <linearGradient id="paint0_linear_111_10" x1="43.5" y1="-2" x2="43.5" y2="97" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#45334E"/>
+                <stop offset="1" stop-color="#18121B"/>
+                </linearGradient>
+                </defs>
+            </svg>
+        </div>
+        <div id="icon-6" class="icon">
+            <svg width="87" height="95" viewBox="0 0 87 95" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M37.5 3.7735C41.2128 1.62991 45.7872 1.62991 49.5 3.7735L78.3683 20.4406C82.0811 22.5842 84.3683 26.5457 84.3683 30.8329V64.1671C84.3683 68.4543 82.0811 72.4158 78.3683 74.5594L49.5 91.2265C45.7872 93.3701 41.2128 93.3701 37.5 91.2265L8.63174 74.5594C4.91893 72.4158 2.63174 68.4543 2.63174 64.1671V30.8329C2.63174 26.5457 4.91893 22.5842 8.63174 20.4406L37.5 3.7735Z" fill="#211724" stroke="url(#paint0_linear_111_10)" stroke-width="4"/>
+                <text id="6" x="43.5" y="47.5" text-anchor="middle" fill="white" font-size="2vw" font-weight="bold" dy=".3em">G</text>
+                <defs>
+                <linearGradient id="paint0_linear_111_10" x1="43.5" y1="-2" x2="43.5" y2="97" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#45334E"/>
+                <stop offset="1" stop-color="#18121B"/>
+                </linearGradient>
+                </defs>
+            </svg>
+        </div>
+        <div id="icon-7" class="icon">
+            <svg width="87" height="95" viewBox="0 0 87 95" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M37.5 3.7735C41.2128 1.62991 45.7872 1.62991 49.5 3.7735L78.3683 20.4406C82.0811 22.5842 84.3683 26.5457 84.3683 30.8329V64.1671C84.3683 68.4543 82.0811 72.4158 78.3683 74.5594L49.5 91.2265C45.7872 93.3701 41.2128 93.3701 37.5 91.2265L8.63174 74.5594C4.91893 72.4158 2.63174 68.4543 2.63174 64.1671V30.8329C2.63174 26.5457 4.91893 22.5842 8.63174 20.4406L37.5 3.7735Z" fill="#211724" stroke="url(#paint0_linear_111_10)" stroke-width="4"/>
+                <text id="7" x="43.5" y="47.5" text-anchor="middle" fill="white" font-size="2vw" font-weight="bold" dy=".3em">G</text>
+                <defs>
+                <linearGradient id="paint0_linear_111_10" x1="43.5" y1="-2" x2="43.5" y2="97" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#45334E"/>
+                <stop offset="1" stop-color="#18121B"/>
+                </linearGradient>
+                </defs>
+            </svg>
+        </div>
+        <div id="icon-8" class="icon">
+            <svg width="87" height="95" viewBox="0 0 87 95" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M37.5 3.7735C41.2128 1.62991 45.7872 1.62991 49.5 3.7735L78.3683 20.4406C82.0811 22.5842 84.3683 26.5457 84.3683 30.8329V64.1671C84.3683 68.4543 82.0811 72.4158 78.3683 74.5594L49.5 91.2265C45.7872 93.3701 41.2128 93.3701 37.5 91.2265L8.63174 74.5594C4.91893 72.4158 2.63174 68.4543 2.63174 64.1671V30.8329C2.63174 26.5457 4.91893 22.5842 8.63174 20.4406L37.5 3.7735Z" fill="#211724" stroke="url(#paint0_linear_111_10)" stroke-width="4"/>
+                <text id="8" x="43.5" y="47.5" text-anchor="middle" fill="white" font-size="2vw" font-weight="bold" dy=".3em">G</text>
+                <defs>
+                <linearGradient id="paint0_linear_111_10" x1="43.5" y1="-2" x2="43.5" y2="97" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#45334E"/>
+                <stop offset="1" stop-color="#18121B"/>
+                </linearGradient>
+                </defs>
+            </svg>
+        </div>
+    
+</div> 
+ <div class="minigame-title">
+    <input id="word" placeholder="Wprowadz Slowo" type="text" class="input">
+  </div>
+ 
+</div>
+
+
+<script src="js/main.js"></script>
+<script src="js/fivem.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/utils/Draggable.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js'></script>
+</body>
+</html>
