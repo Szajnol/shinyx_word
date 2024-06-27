@@ -8,7 +8,7 @@ This minigame is simple just find the word and win
 
 ## Preview
 
-https://streamable.com/dlk2u2
+https://streamable.com/gcwoib
 
 ## Usage/Examples
 
