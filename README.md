@@ -1,6 +1,6 @@
 
 
-## ShinyX-Dot
+## ShinyX-Word
 
 
 This minigame is simple just find the word and win
