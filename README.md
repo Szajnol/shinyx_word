@@ -5,6 +5,8 @@
 
 This minigame is simple just find the word and win
 
+https://discord.gg/WbmJpZ3fyr
+
 
 ## Preview
 
